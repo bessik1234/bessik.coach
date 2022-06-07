@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: linear-gradient(to top, rgb(171, 175, 219, 0.18), rgb(252, 85, 126, 0.18)) 0% 0% /100% no-repeat;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+}
+
+.baner {
+    background-image: url(img/font/fon5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 52%;
+}
+
+.network__item {
+    background-size: 72%;
+    background-repeat: no-repeat;
+    padding: 3%;
+    background-position: center;
+}
+
+.vk {
+    background-image: url(png/icon/vk.png);
+}
+
+.in {
+    background-image: url(png/icon/in.png);
+}
+
+.tg {
+    background-image: url(png/icon/tg.png);
+}
+
+.yu {
+    background-image: url(png/icon/yu.png);
+}
+
+.tk {
+    background-image: url(png/icon/tk.png);
+}
+
+.product__img {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 156px 97px;
+}
+
+.rollsmall {
+    background-image: url(png/prod/litl.PNG);
+}
+
+.rollbig {
+    background-image: url(png/prod/big.PNG);
+}
+
+.grid {
+    background-image: url(png/prod/greed.PNG);
+}
+
+.ballcrazy {
+    background-image: url(png/prod/ball.PNG);
+}
+
+.balllihte {
+    background-image: url(png/prod/ball-red.PNG);
+}
+
+.baner__line {
+    background-image: url(png/line/line.PNG);
+    background-size: 100%;
+    padding: 32px;
+    background-repeat: no-repeat;
+}
+
+.button-baner {
+    color: white;
+    font-size: 1.1rem;
+    
+    padding:1% 2%;
+    background-image: linear-gradient(to right, rgb(252 85 126), rgb(171 175 219), rgb(255 23 80), rgb(107 114 193));
+    box-shadow: 0 4px 15px 0 rgb(255 255 255 / 75%);
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all 0.4s 0s ease-in-out;
+}
+
+.menu-item {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.heder__logo {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.baner__lidtitle {
+    text-align: center;
+}
+
+.lidtitle {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1.9rem;
+    font-style: italic;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(42 45 48);
+}
+.magazin {
+    color: #2a2d30;
+}
+.button {
+    width: 43%;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 11%;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all 0.4s 0s ease-in-out;
+}
+
+.heder__logo,
+.button:hover {
+    background-position: 100% 0;
+    transition: all 0.4s 0s ease-in-out;
+}
+
+.button {
+    color: rgb(255 255 255);
+    background-image: linear-gradient(to right,  rgb(255 23 80), rgb(107 114 193), rgb(255 197 211), rgb(216 217 231));
+    box-shadow: 0 4px 15px 0 rgb(255, 255, 255, 0.75);
+}
+
+.title,
+.text {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper-block {
+    width: 100%;
+}
+
+.baner-container,
+.magazin-containe {
+    display: flex;
+}
+
+.menu-container {
+    color: rgb(255 255 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+    background-color: #2a2d30;
+}
+
+.link:not(:first-child) {
+    margin-left: 10%;
+}
+
+.link {
+    color: white;
+}
+
+.heder__logo {
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, rgb(107 114 193), rgb(255 23 80), rgb(252 85 126), rgb(171 175 219));
+    box-shadow: 0 4px 15px 0 rgb(255 255 255 / 75%);
+    border-radius: 50px;
+    transition: all 0.4s 0s ease-in-out;
+    padding: 8px 6px;
+}
+
+.baner-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 9% 0 3% 0;
+}
+
+.baner__subtitle {
+    margin: 1%;
+}
+
+.about {
+    color: rgb(243 241 241 / 95%);
+    background-color: #2a2d30;
+    padding: 3% 0;
+}
+
+.about__text {
+    /* width: 100%; */
+    display: flex;
+    align-items: stretch;
+    margin: 5% 0;
+    justify-content: space-between;
+}
+
+.about-container,
+.magazin-container,
+.trening-container {
+    margin: 0 5%;
+}
+
+.text-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    max-width: 48%;
+}
+
+.about__img {
+    width: 42%;
+    margin-left: 2%;
+}
+
+.about__img {
+    background-size: 100%;
+    background-image: url(img/face/ee.jpg);
+    background-repeat: no-repeat;
+    padding-top: 56%;
+    margin-left: 2%;
+}
+
+.about__lidtitle,
+.trening__lidtitle,
+.magazin__lidtitle,
+.trening__description,
+.trening__item {
+    margin-top: 3%;
+}
+
+.tening__title {
+    text-align: center;
+}
+
+.trening__img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.trening {
+    background-color: white;
+    color: #2a2d30;
+    padding: 3% 0;
+}
+
+.magazin {
+    background-color: rgb(255 255 255);
+    padding: 3% 0;
+}
+
+.magazin__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.network {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background-color: #2a2d30;
+}
+
+.button__link.button {
+    padding: 3% 8%;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .baner__line.line {
+        padding: 3%;
+    }
+
+    .link:not(:first-child) {
+        margin-left: 5%;
+    }
+
+    .baner__lidtitle {
+        padding: 0 10%;
+        text-align: center;
+        /* font-size: 2.2rem; */
+    }
+    .baner__subtitle {
+}
+
+    .about__text {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .text-wrap {
+        max-width: 100%;
+    }
+
+    .magazin__content {
+    }
+
+
+   
+
+    .about__img {
+        background-size: 102%;
+        background-image: url(img/face/ee.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position-y: 16%;
+        margin-left: 0;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-wrap {
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    section.baner.wrapper-block {
+        background-size: 100%;
+        background-position-y: -77px;
+        background-position-x: 0;
+    }
+
+    .lidtitle {
+        font-size: 1.6rem;
+    }
+
+    .baner__subtitle {
+    font-size: 1.5rem;
+    }
+
+    .title,
+    .text {
+        font-size: 1.2rem;
+    }
+
+    section.trening.wrapper-block {
+        background-color: #2a2d30;
+        color: #f3f3f3;
+    }
+
+    .trening-container {
+        margin: 5%;
+    }
+
+    .menu-item {
+        font-size: 1rem;
+    }
+
+    .trening-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .magazin-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product {
+    width: 40%;
+}
+}
+
+@media screen and (max-width: 460px) {
+
+    .about:active .about__text,
+    .trening:active .box-wrap,
+    .magazin:active .magazin__content {
+        display: block;
+    }
+
+    .magazin__content:hover,
+    .about__text:hover,
+    .box-wrap:hover {
+        display: block;
+    }
+.baner__lidtitle, .baner__subtitle {
+    background-color: #0000006b;
+    padding: 0 2%;
+}
+    .baner {
+        background-position-y: -1px;
+    }
+
+    .lidtitle {
+        margin: 1%;
+        text-align: center;
+    }
+
+  
+    .network__item {
+        padding: 8%;
+    }
+
+    .network__item {
+        padding: 8%;
+    }
+
+    .baner__lidtitle {
+        font-size: 1.1rem;
+        padding: 0 1%;
+    }
+
+    .menu-item.link {
+        display: none;
+    }
+
+    a.heder__logo.link.bc {
+        margin-left: 0;
+        font-size: 0.7rem;
+        padding: 2%;
+        /* background-image: none; */
+    }
+
+    .menu-container {
+        /* background-image: linear-gradient(to right, rgb(252, 85, 126), rgb(171, 175, 219)); */
+        padding: 1% 0;
+    }
+
+    .baner__subtitle {
+    }
+
+    .button-baner {
+        font-size: 0.5rem;
+    }
+
+    .subtitle {
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    section.baner.wrapper-block {
+        background-size: 100%;
+        background-position-y: -6px;
+        background-position-x: 0;
+    }
+}
+@media screen and (max-width: 460px) {
+.lidtitle {
+    font-size: 0.4rem;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+}
+
+.lidtitle {
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 0.7rem;
+}
+
+.text {
+    font-size: 0.7rem;
+}
+    .product {
+    width: 80%;
+}
+    
+}
